@@ -29,11 +29,7 @@ Both of these Python scripts ask the user for the required information during ex
 
 ### How To Train
 **Note: The model in this repo is already trained. Additional training is not required. Training this model takes about 1 hour.**
-If you choose to retrain this model, perhaps on another data set, you must first sanitize the training data. As it currently stands, this model assumes the file `pickle/sentences.p` contains a [pickled](https://docs.python.org/3/library/pickle.html) array of sentences. This file can be created from the text in the raw text file, `text/amazon_reviews.txt`, using the following command:
-```
-python3 clean.py
-```
-Once the data is cleaned, the model can be trained using:
+If you choose to retrain this model, run the following command:
 ```
 python3 train.py
 ```
