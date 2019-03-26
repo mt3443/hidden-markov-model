@@ -13,7 +13,7 @@ Hidden Markov models can be entirely described with three parameters. Those para
 Once the model was trained, it could begin generating new text using simple random number generation and its initial, transition, and emission probabilities. The model could also predict the next words in a given sequence using the Viterbi algorithm in conjunction with the previously described text generation process.
 
 ### How To Run
-This project was written in Python 3.7.2 and relies on two modules, numpy and nltk. To install these modules, simply run this command:
+This project was written in Python 3.7.2 and relies on two modules, [numpy](http://www.numpy.org/) and [nltk](https://www.nltk.org/). To install these modules, simply run this command:
 ```
 pip3 install numpy nltk
 ```
