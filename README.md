@@ -1,7 +1,7 @@
 ## EECS 738 Project 2: Hidden Markov Model by Matthew Taylor
 
 ### Overview
-The objective of this project is to create a hidden Markov model (HMM) capable of generating and predicting text. This task is accomplished by implementing the [Baum-Welch](https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm) and [Viterbi](https://en.wikipedia.org/wiki/Viterbi_algorithm) algorithms. This HMM was trained using a [data set](https://www.kaggle.com/snap/amazon-fine-food-reviews) containing user reviews of food products on Amazon.
+The objective of this project was to create a hidden Markov model (HMM) capable of generating and predicting text. This task was accomplished by implementing the [Baum-Welch](https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm) and [Viterbi](https://en.wikipedia.org/wiki/Viterbi_algorithm) algorithms. This HMM was trained using a [data set](https://www.kaggle.com/snap/amazon-fine-food-reviews) containing user reviews of food products on Amazon.
 
 ### Approach
 I was attracted to this data set for many reasons. Its large number of observations provided ample training data and most of the sentences seemed to have a similar structure. I assumed the model would easily be able to learn and reproduce this repeated sentence structure after observing it so many times. After some light cleaning (removing strange characters, HTML tags, and punctuation) and restructuring (only a single sentence on every line), the data was ready to be consumed.
