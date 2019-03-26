@@ -17,6 +17,12 @@ This project was written in Python 3.7.2 and relies on two modules, numpy and nl
 ```
 pip3 install numpy nltk
 ```
+Then, an nltk resource named punkt must be installed. This can be done by doing the following:
+```
+python3
+>>> import nltk
+>>> nltk.download('punkt')
+```
 Once the dependencies are installed, text can be generated using this command:
 ```
 python3 generate.py
